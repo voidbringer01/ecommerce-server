@@ -113,5 +113,6 @@ app.use('/api/transactions', require('./routes/api/transactions'))
 app.use('/api/tickets', require('./routes/api/tickets'))
 app.use('/api/support', require('./routes/api/support'))
 
-app.listen(3000,'138.68.102.182');
+// app.listen(3000,'138.68.102.182');
+app.listen(3000)
 // app.listen(3000)
